@@ -1,0 +1,78 @@
+# ══════════════════════════════════════
+# Spring Boot & Maven Backend .gitignore
+# ══════════════════════════════════════
+
+# Target / Build artifacts
+target/
+*.jar
+*.war
+*.ear
+*.nar
+*.class
+
+# Maven release plugin
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Application Data & Local DBs
+data/
+*.db
+*.mv.db
+*.trace.db
+*.lock.db
+
+# User Uploaded Documents & Media
+uploads/
+!uploads/.gitkeep
+
+# Logs & Crash Dumps
+*.log
+logs/
+*.gz
+hs_err_pid*
+replay_pid*
+
+# IDE & Editor Settings
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Environment & Local Secrets
+.env
+.env.local
+application-local.properties
+application-secret.properties
+*.pem
+*.key
+*.p12
+*.jks
+

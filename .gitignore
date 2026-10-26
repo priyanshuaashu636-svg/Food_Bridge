@@ -1,0 +1,32 @@
+# Root .gitignore for Smart-FoodDonation Platform
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# JVM / System Crash Logs & Logs
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Backend
+food_donation_backend/target/
+food_donation_backend/data/
+food_donation_backend/uploads/
+food_donation_backend/*.log
+
+# Frontend
+food_donation_frontend/node_modules/
+food_donation_frontend/dist/
+food_donation_frontend/dist-ssr/
+food_donation_frontend/*.local
+food_donation_frontend/*.log
+
